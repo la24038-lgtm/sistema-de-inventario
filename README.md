@@ -38,7 +38,7 @@ Variables de entorno `MONGO_URI` y `MONGO_DB` para cambiar servidor y base.
 
 ## Notas importantes
 - El archivo `mongodb/inicializar.js` es una alternativa opcional para sembrar productos; el método recomendado es ejecutar la clase Java `Inicializar`, que además crea el usuario seguro.
-- Este código es una implementación nueva basada en el documento, no una modificación de tu proyecto anterior.
+- Este código es una implementación nueva basada en el documento anterior.
 - Se verificó la conexión y la inicialización contra MongoDB Atlas.
 - El diagrama UML del Word es conceptual y contiene clases adicionales. Para un UML exacto del código, representa `Main`, `Producto`, `Repositorio`, `Autenticacion` e `Inicializar`.
 - Los movimientos modifican las existencias; esta versión no guarda un historial individual de cada movimiento.
